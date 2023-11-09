@@ -1,0 +1,341 @@
+/* Media for 768px */
+
+@media only screen and (max-width: 768px) {
+   .container {
+      max-width: 814px;
+      margin: auto;
+      padding: 0 20px;
+   }
+
+   .dark-btn,
+   .light-btn {
+      font-size: 13px;
+      padding: 12px 32px;
+   }
+
+   .light-btn {
+      font-size: 13px;
+      padding: 0px 32px;
+   }
+
+
+   .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+   }
+
+   .hero-text {
+      padding-left: 55px;
+   }
+
+   .hero h1 {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+   }
+
+   .hero-img {
+      /* height: 647px; */
+      /* width: 496px; */
+      /* display: flex; */
+      /* align-items: flex-end;
+   justify-content: flex-end; */
+      align-self: flex-end;
+   }
+
+   .achivement-card-1 {
+      left: 50px;
+   }
+
+   .achivement-card-2 {
+      left: 50px;
+   }
+
+   /* Review section */
+
+   .review-sec {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0 50px;
+   }
+
+   .review-sec .review-2 {
+      order: 1;
+   }
+
+   .review-sec .review-1 {
+      order: 2;
+   }
+
+   .desk-btn {
+      order: 3;
+   }
+
+   .review-2 h2 {
+      font-size: 40px;
+   }
+
+   .review-2 p {
+      width: 600px;
+      padding-bottom: 12px;
+   }
+
+   .review-2 {
+      width: 100%;
+   }
+
+   .review-1,
+   .rev-card-1,
+   .rev-card-2 {
+      width: 100%;
+
+   }
+
+   .rev-card-2 {
+      margin-left: -5px;
+   }
+
+   .rev-text,
+   .rev-text-2 {
+      width: 100%;
+   }
+
+   .dash {
+      left: 0px;
+   }
+
+   .desktop-btn {
+      display: none;
+   }
+
+   .mobile-btn {
+      width: 150px;
+   }
+   .mob-btn {
+      display: flex;
+      justify-content: flex-end;
+   }
+
+   /* Course section */
+
+   #light-header {
+      font-size: 40px;
+   }
+
+   .course-card {
+      flex-direction: column;
+      row-gap: 80px;
+   }
+
+   .course {
+      width: 100%;
+   }
+
+   
+
+   /* Get App */
+
+   .get-app h2 {
+      font-size: 40px;
+   }
+
+   /* Footer Section */
+
+   .all-footer {
+      flex-direction: column;
+      row-gap: 30px;
+      padding-left: 70px;
+   }
+
+   #copy {
+      text-align: center;
+   }
+
+}
+
+
+/* Media for 414px */
+
+@media only screen and (max-width: 414px) {
+
+   .container {
+      max-width: 414px;
+      margin: auto;
+      padding: 0 32px;
+   }
+
+   .nav-menue {
+      display: none;
+   }
+
+   .logo {
+      font-size: 36px;
+   }
+
+   /* Hero Section */
+
+   .hero-text {
+      padding-left: 0;
+   }
+
+   .hero h1 {
+      font-size: 36px;
+      width: 350px;
+   }
+
+   .hero p {
+      width: 350px;
+   }
+
+   .hero-img img {
+      width: 290px;
+      margin-right: -100px;
+   }
+
+   .achivement-card-1,
+   .achivement-card-2 {
+      width: 182px;
+      height: 75px;
+   }
+
+   .enrol-card h3 {
+      font-size: 30px;
+   }
+
+   .enrol-card p {
+      font-size: 14px;
+   }
+
+   .achivement-card-1 {
+      top: -270px;
+      left: 0;
+   }
+
+   .achivement-card-2 {
+      top: -135px;
+      left: 0;
+   }
+
+   /* Review */
+
+   .review-sec {
+      padding: 0;
+   }
+
+   .review-2 h2 {
+      font-size: 30px;
+   }
+
+   .review-2 p {
+      width: 350px;
+   }
+
+   .rev-text {
+      font-size: 16px;
+   }
+
+   .rev-info h3 {
+      font-size: 18px;
+   }
+
+   .rev-info p {
+      font-size: 14px;
+   }
+
+   .rev-name img {
+      height: 100px;
+   }
+
+   .dash {
+      left: -32px;
+   }
+
+   /* Course Section */
+
+   #light-header {
+      font-size: 30px;
+   }
+
+   .course-info h3 {
+      font-size: 24px;
+   }
+
+   .resp {
+      padding: 0;
+   }
+
+   .course-btn {
+      margin-right: 30px;
+   }
+
+   /* Get App */
+
+   .get-app h2 {
+      font-size: 30px;
+   }
+
+   .app-section {
+      flex-wrap: wrap;
+   }
+
+   .logo-1 {
+      margin-bottom: 26px;
+   }
+
+   /* Footer */
+
+   .footer-1 {
+      flex-wrap: wrap;
+   }
+
+   .footer-1 .link-1 {
+      margin: auto;
+
+   }
+
+   .footer-1 .link-0 {
+      padding-bottom: 25px;
+   }
+
+   .all-footer {
+      align-items: center;
+      text-align: center;
+      padding-left: 0;
+   }
+
+   .footer-2 {
+      width: 100%;
+   }
+
+   .social-icon {
+      justify-content: center;
+   }
+
+   .email {
+      width: 350px;
+   }
+
+   #email {
+      width: 350px;
+      margin-bottom: 15px;
+      margin-left: 0;
+   }
+
+   .form {
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: auto;
+   }
+
+   #copy {
+      font-size: 14px;
+      padding-top: 40px;
+   }
+
+
+
+
+
+}
